@@ -1,6 +1,3 @@
-
-
-
 let formData = {
   email: '',
   message: '',
@@ -54,4 +51,8 @@ function handleSubmit(event) {
 }
 
 
+form.addEventListener('input', handleInput);
+form.addEventListener('submit', handleSubmit);
+
+populateForm();
 
