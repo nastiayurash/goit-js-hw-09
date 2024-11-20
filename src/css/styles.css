@@ -54,3 +54,81 @@
 .sl-wrapper .sl-navigation button.sl-next {
   color: #ffffff;
 }
+/* form styles */
+.feedback-form {
+  border-radius: 8px;
+  padding: 24px;
+  width: 408px;
+  height: 296px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+.feedback-form label {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.feedback-form {
+  max-width: 408px;
+  margin: 0 auto;
+  padding: 24px;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.feedback-form label {
+  display: block;
+  margin-bottom: 8px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.feedback-form input,
+.feedback-form textarea {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+.feedback-form button {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  padding: 8px 16px;
+  margin-top: 8px;
+  background-color: #4e75ff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.feedback-form button:hover,
+.feedback-form button:focus {
+  background-color: #6c8cff;
+}
+input::placeholder,
+textarea::placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: transparent;
+  transition: color 250ms ease;
+}
+input:focus::placeholder,
+textarea:focus::placeholder {
+  color: #2e2f42;
+}
