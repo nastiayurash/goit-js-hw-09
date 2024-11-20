@@ -16,16 +16,20 @@
 @import url('./badges.css');
 @import url('./back-link.css');
 @import url('./footer.css');
-
+/* gallery styles */
+.container {
+  .container {
+    max-width: 1440px;
+    padding: 0 156px;
+    margin: 0 auto;
+  }
+}
 .gallery-item {
   margin: 0;
   width: calc((100% - 2 * 24px) / 3);
 }
 
 .gallery {
-  max-width: 1440px;
-  padding: 0 156px;
-  margin: 0 auto;
   padding: 24px 0;
   display: flex;
   flex-wrap: wrap;
@@ -43,13 +47,10 @@
 .sl-wrapper .sl-navigation button.sl-prev {
   color: #ffffff;
 }
-.simple-lightbox button.sl-close {
+.sl-wrapper button.sl-close {
   color: #ffffff;
 }
 
-.simple-lightbox .sl-navigation button.sl-next {
-  color: #ffffff;
-}
-.simple-lightbox .sl-navigation button.sl-prev {
+.sl-wrapper .sl-navigation button.sl-next {
   color: #ffffff;
 }
