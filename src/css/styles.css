@@ -32,20 +32,24 @@
   justify-content: center;
   gap: 24px;
 }
-.sl-overlay {
-  background-color: rgba(46, 47, 66, 0.8);
+
+.sl-wrapper {
+  background: #2e2f42cc;
 }
-.sl-prev,
-.sl-next {
-  color: #fff;
+.sl-wrapper div.sl-counter {
+  color: #ffffff;
 }
-.sl-caption {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 150%;
-  letter-spacing: 0.04em;
-  color: #fff;
+
+.sl-wrapper .sl-navigation button.sl-prev {
+  color: #ffffff;
 }
-.sl-close {
-  color: #fff;
+.simple-lightbox button.sl-close {
+  color: #ffffff;
+}
+
+.simple-lightbox .sl-navigation button.sl-next {
+  color: #ffffff;
+}
+.simple-lightbox .sl-navigation button.sl-prev {
+  color: #ffffff;
 }
